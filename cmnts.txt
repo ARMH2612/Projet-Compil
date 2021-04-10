@@ -1,0 +1,36 @@
+//affectation : ID AFFECT expressionArithm SEM_VIRG;
+//expressionArithm : PAR_OV expressionArithm PAR_FR
+//            | expressionArithm ADD expressionArithm
+//            | expressionArithm MULT expressionArithm
+//            | expressionArithm DIV expressionArithm
+//            | expressionArithm SUB expressionArithm
+//            | INT | FLOAT| ID;
+
+
+
+//cond :  PAR_OV cond PAR_FR
+//       | expressionOp
+//       ;
+//
+//expressionOp : expressionArithm op expressionArithm;
+//op : INF | SUP | EQUAL | INFE | SUPE | NOQUAL;
+
+
+//expression :expression as expression1
+//            | expression1
+//            ;
+//expression1 : expression1 dm expression2 | expression2;
+//expression2 : value | expression;
+//value : INT | FLOAT | ID;
+//as : ADD | SUB;
+//dm : MULT | DIV ;
+
+
+=================
+Compil Prog (){
+IntCompil l,m;
+StringCompil v,s;
+FloatCompil f1,f2,f3;
+start
+m=9+9;
+}
